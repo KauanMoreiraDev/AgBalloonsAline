@@ -5,5 +5,4 @@ desenvolvimento. Fizemos algumas reuniões e nessas eu apliquei algumas tecnicas
 estou no final do 3ro período de Ciências da Computação, na Fatece de Pirassunga), como análise e desenvolviemnto de sistema, teoria das cores, ihc e 
 responsividade.
 
-Minha visão final para o proejto é uma landing page responsiva com html,css e js. Futuramente irei aplicar conceitos de react na mesma, sempre deixando 
-este projeto que já ganhou meu coração atualizado.
+Minha visão final para o proejto é uma landing page responsiva com html,css e js. Futuramente irei aplicar conceitos de react, tailwind na mesma, sempre deixando com a melhor tecnologia possivel, afinal, este projeto tem meu coração.
