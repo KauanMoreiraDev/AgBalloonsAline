@@ -14,6 +14,8 @@
     /*navajo-white*/
     --color5: rgb(255, 255, 255);
 
+    --color-white: rgb(255, 255 , 255);
+
     --color-manutenção: rgba(61, 58, 58, 0.288);
 
     --font-dest: 'Dancing Script', 'Lobster', sans-serif;
@@ -49,11 +51,21 @@ header {
     width: auto;
     padding: 3px;
     margin: 15px 15px 0px 15px;
+
+    position: relative;
+}
+
+#index{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -61px;
+    left: 570px;
 }
 
 /*Menu*/
 nav {
-    margin: auto;
+    margin-top: 15px;
     padding: 5px 10px;
 
     display: flex;
@@ -77,8 +89,11 @@ nav>a:visited {
 }
 
 nav>a:hover {
-    color: var(--color2);
+    color: var(--color4);
     text-decoration: underline;
+    background-color: var(--color2);
+    border-radius: 6px 15px;
+    transition: 0.9s;
 }
 
 
@@ -125,6 +140,7 @@ nav>a:hover {
     justify-content: center;
     flex-wrap: wrap;
 
+    position: relative;
     width: 100%;
     height: 100%;
     
@@ -155,6 +171,21 @@ nav>a:hover {
 
 #convites>p:hover>span {
     display: inline;
+}
+
+#conv1{
+    position: absolute;
+    right: 853.5px;
+}
+
+#conv2{
+    position: absolute;
+    right: 553.5px;
+}
+
+#conv3{
+    position: absolute;
+    right: 253.5px;
 }
 
 #decoração {
