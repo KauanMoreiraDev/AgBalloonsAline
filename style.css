@@ -156,33 +156,56 @@ nav>a:hover {
 }
 
 #decoração {
-    background: rgba(255, 255, 255, 0) url(images/varal_fotos.png) center center no-repeat scroll;
+    background: rgba(255, 255, 255, 0) url(images/varal_fotos.png) top center scroll;
+    background-repeat: repeat-y;
     background-size: contain;
-    height: 400px;
+    height: 100vw;
     position: relative;
 }
 
 #image1{
     position: absolute;
 
-    top: 191px;
-    left: 376px;
+    top: 313px;
+    left: 199px;
 }
 
 #image2{
     position: absolute;
-    transform: rotate(5deg);
+    transform: rotate(4.6deg);
 
-    top: 175px;
-    left: 595px;
+    top: 287px;
+    left: 557px;
 }
 
 #image3{
     position: absolute;
-    transform: rotate(-15deg);
+    transform: rotate(-14.4deg);
 
-    top: 146px;
-    left: 806px;
+    top: 240px;
+    left: 900px
+}
+
+#image4{
+    position: absolute;
+    top: 968px;
+    left: 199px;
+}
+
+#image5{
+    position: absolute;
+    transform: rotate(4.6deg);
+
+    top: 942px;
+    left: 557px;
+}
+
+#image6{
+    position: absolute;
+    transform: rotate(-14.4deg);
+
+    top: 895px;
+    left: 901px;
 }
 
 #decoração h1 {
